@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.therookiecoder.stairautojump.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "PlayerTickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "stairautojump",
+  "version": "${version}",
+  "name": "StairAutoJump",
+  "description": "Turns on auto jump when in/on stairs",
+  "authors": ["theRookieCoder"],
+  "contact": {
+    "email": "ileshkt@gmail.com",
+    "homepage": "https://modrinth.com/mod/stairautojump",
+    "sources": "https://github.com/theRookieCoder/StairAutoJump",
+    "issues": "https://github.com/theRookieCoder/StairAutoJump/issues"
+  },
+  "license": "MPL-2.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.therookiecoder.stairautojump.StairAutoJump"
+    ]
+  },
+  "mixins": [
+    "stairautojump.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.18.2"
+  }
+}
