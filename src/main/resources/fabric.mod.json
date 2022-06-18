@@ -10,6 +10,7 @@
     "sources": "https://github.com/theRookieCoder/StairAutoJump",
     "issues": "https://github.com/theRookieCoder/StairAutoJump/issues"
   },
+  "icon": "assets/stairautojump/icon.png",
   "license": "MPL-2.0",
   "environment": "client",
   "mixins": [
