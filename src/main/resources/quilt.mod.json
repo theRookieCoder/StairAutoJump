@@ -1,0 +1,37 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "",
+		"id": "stairautojump",
+		"version": "${version}",
+		"metadata": {
+			"name": "StairAutoJump",
+			"description": "Turns on auto jump when in/on stairs",
+			"contributors": {
+				"theRookieCoder": "Owner"
+        "RaptaG": "Contributor"
+			},
+			"contact": {
+				"homepage": "https://modrinth.com/mod/stairautojump",
+				"issues": "https://github.com/theRookieCoder/StairAutoJump/issues",
+				"sources": "https://github.com/theRookieCoder/StairAutoJump"
+			},
+			"icon": "assets/stairautojump/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "io.github.therookiecoder.stairautojump.StairAutoJump"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": "*"
+			},
+			{
+				"id": "minecraft",
+				"versions": "*"
+			}
+		]
+	},
+	"mixin": "stairautojump.mixins.json"
+}
