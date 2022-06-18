@@ -1,30 +1,31 @@
 # StairAutoJump
+
 Turns on auto jump when in/on stairs!
 
 ## Why though?
-As of snapshot [16w20a](https://minecraft.fandom.com/wiki/Java_Edition_16w20a), auto jump on stairs makes you move faster than just pressing the spacebar. This mod enables it automatically for you when in/on stairs if you don't use auto jump.
 
-## Installing the mod
-**Requirements:** Any version of [Fabric](https://fabricmc.net/use/installer/) or [Quilt](https://quiltmc.org/install/) loader.
+As of snapshot [16w20a](https://minecraft.fandom.com/wiki/Java_Edition_16w20a), auto jump on stairs makes you move faster than just pressing the spacebar.
+This mod enables it automatically for you when in/on stairs, then disables it once you get off.
 
-There are 2 ways to install the mod:
-1. Get it from the [repository's releases](https://github.com/theRookieCoder/StairAutoJump/releases) (easiest).
-2. Compile the source code (advanced). Follow the steps below:
-- Clone the source code (the commands below must be run in a terminal):
-```
-git clone https://github.com/theRookieCoder/StairAutoJump
-```
-- Enter the `StairAutoJump` folder and run:
-```
-./gradlew build
-```
-- Enter the `libs` folder and grab the `.jar` file
-- Place it in your `mods` folder
+## Installation and Usage
 
-After this done, the mod should be installed and working!
+Download the mod from any of the following and place it in the `mods` folder
+
+- Modrinth (coming soon)
+- [GitHub Releases](https://github.com/theRookieCoder/StairAutoJump/releases)
+- CurseForge (coming soon)
+
+Launch any version of Minecraft using any version of the [Fabric](https://fabricmc.net/use/installer/) or [Quilt](https://quiltmc.org/install/) mod loaders.
+
+## Build from Source
+
+1. Clone the repository with `git clone https://github.com/theRookieCoder/StairAutoJump` or `gh repo clone theRookieCoder/StairAutoJump`
+2. Enter the `StairAutoJump` folder and run `./gradlew build`
+3. Get the `.jar` file from the `libs` folder
+4. Place it in your `mods` folder
 
 ## Feedback/Support
-You can find support or give feedback in the [Issues Section](https://github.com/theRookieCoder/StairAutoJump/issues).
+You can find support or give feedback in the [Issues Section](https://github.com/theRookieCoder/StairAutoJump/issues)
 
 ## License
-This mod is under the Mozilla Public License, v. 2.0. You can find more information related [here](LICENSE).
+This mod is licensed under the Mozilla Public License, v2.0 (`MPL-2.0`). You can read the license [here](LICENSE).
