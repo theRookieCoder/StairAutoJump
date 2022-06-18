@@ -1,4 +1,4 @@
-<img width="200" src="https://raw.githubusercontent.com/theRookieCoder/StairAutoJump/master/src/main/resources/assets/stairautojump/icon.png" alt="StairAutoJump Icon" align="right">
+<img width="200" src="https://raw.githubusercontent.com/theRookieCoder/StairAutoJump/master/src/main/resources/assets/stairautojump/icon.png" align="right">
 
 # StairAutoJump
 
