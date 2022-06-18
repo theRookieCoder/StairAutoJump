@@ -18,7 +18,7 @@ processResources {
     inputs.property "version", project.version
     filteringCharset "UTF-8"
 
-    filesMatching("fabric.mod.json") {
+    filesMatching("*.mod.json") {
         expand "version": project.version
     }
 }
@@ -45,8 +45,8 @@ def changelog = ""
 
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
-    versionName = "StairAutoJump ${version}"
-    versionNumber = version
+    versionName = "StairAutoJump ${project.version}"
+    versionNumber = project.version
     projectId = "shbn27fi"
     uploadFile = remapJar
     versionType = "beta"
@@ -107,7 +107,7 @@ curseforge {
         mainArtifact(remapJar) {
             changelogType = "markdown"
             changelog
-            displayName = "SnowyLeavesPlus ${version}"
+            displayName = "SnowyLeavesPlus ${project.version}"
         }
     }
 }

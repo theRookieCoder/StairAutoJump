@@ -3,10 +3,11 @@
   "id": "stairautojump",
   "version": "${version}",
   "name": "StairAutoJump",
-  "description": "Turns on auto jump when in/on stairs",
+  "description": "Turns on auto jump when in/on stairs so that you can move faster!",
   "authors": ["theRookieCoder", "RaptaG"],
   "contact": {
     "email": "ileshkt@gmail.com",
+    "homepage": "https://modrinth.com/mod/snowyleavesplus",
     "sources": "https://github.com/theRookieCoder/StairAutoJump",
     "issues": "https://github.com/theRookieCoder/StairAutoJump/issues"
   },
