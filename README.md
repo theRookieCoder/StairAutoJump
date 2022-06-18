@@ -27,4 +27,4 @@ After this done, the mod should be installed and working!
 You can find support or give feedback in the [Issues Section](https://github.com/theRookieCoder/StairAutoJump/issues).
 
 ## License
-This mod is under the Mozilla Public License, v 2.0. You can find more information related [here](LICENSE).
+This mod is under the Mozilla Public License, v. 2.0. You can find more information related [here](LICENSE).
