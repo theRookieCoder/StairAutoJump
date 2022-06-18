@@ -11,9 +11,9 @@ This mod enables it automatically for you when in/on stairs, then disables it on
 
 Download the mod from any of the following and place it in the `mods` folder
 
-- Modrinth (coming soon)
+- [Modrinth](https://modrinth.com/mod/stairautojump)
 - [GitHub Releases](https://github.com/theRookieCoder/StairAutoJump/releases)
-- CurseForge (coming soon)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/stairautojump)
 
 Launch any version of Minecraft using any version of the [Fabric](https://fabricmc.net/use/installer/) or [Quilt](https://quiltmc.org/install/) mod loaders.
 

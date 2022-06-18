@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "StairAutoJump",
   "description": "Turns on auto jump when in/on stairs",
-  "authors": ["theRookieCoder"],
+  "authors": ["theRookieCoder", "RaptaG"],
   "contact": {
     "email": "ileshkt@gmail.com",
     "sources": "https://github.com/theRookieCoder/StairAutoJump",
@@ -13,9 +13,7 @@
   "icon": "assets/stairautojump/icon.png",
   "license": "MPL-2.0",
   "environment": "client",
-  "mixins": [
-    "stairautojump.mixins.json"
-  ],
+  "mixins": ["stairautojump.mixins.json"],
   "depends": {
     "fabricloader": "*",
     "minecraft": "*"
