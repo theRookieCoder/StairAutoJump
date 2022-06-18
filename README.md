@@ -1,6 +1,8 @@
+<img width="200" src="https://raw.githubusercontent.com/theRookieCoder/StairAutoJump/master/src/main/resources/assets/stairautojump/icon.png" alt="StairAutoJump Icon" align="right">
+
 # StairAutoJump
 
-Turns on auto jump when in/on stairs!
+Turns on auto jump when in/on stairs so that you can move faster! 
 
 ## Why though?
 
