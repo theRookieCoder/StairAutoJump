@@ -2,7 +2,7 @@
 
 # StairAutoJump
 
-Turns on auto jump when in/on stairs so that you can move faster! 
+Turns on auto jump when in/on stairs so that you can move faster! It's a client-side mod, which means that it works everywhere, even on servers!
 
 ## Why though?
 
