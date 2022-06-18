@@ -1,26 +1,27 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "",
+		"group": "${maven_group}",
 		"id": "stairautojump",
 		"version": "${version}",
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "io.github.therookiecoder.stairautojump.StairAutoJump"
+		},
 		"metadata": {
 			"name": "StairAutoJump",
 			"description": "Turns on auto jump when in/on stairs",
 			"contributors": {
-				"theRookieCoder": "Owner"
-        "RaptaG": "Contributor"
+				"theRookieCoder": "Owner",
+				"RaptaG": "Contributor"
 			},
 			"contact": {
 				"homepage": "https://modrinth.com/mod/stairautojump",
 				"issues": "https://github.com/theRookieCoder/StairAutoJump/issues",
 				"sources": "https://github.com/theRookieCoder/StairAutoJump"
 			},
+			"license": "MPL-2.0",
 			"icon": "assets/stairautojump/icon.png"
-		},
-		"intermediate_mappings": "net.fabricmc:intermediary",
-		"entrypoints": {
-			"init": "io.github.therookiecoder.stairautojump.StairAutoJump"
 		},
 		"depends": [
 			{
@@ -32,6 +33,9 @@
 				"versions": "*"
 			}
 		]
+	},
+	"minecraft": {
+		"environment": "client"
 	},
 	"mixin": "stairautojump.mixins.json"
 }
