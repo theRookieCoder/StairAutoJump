@@ -17,7 +17,7 @@ Download the mod from any of the following and place it in the `mods` folder
 - [GitHub Releases](https://github.com/theRookieCoder/StairAutoJump/releases)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/stairautojump)
 
-Launch any version of Minecraft using any version of the [Fabric](https://fabricmc.net/use/installer/) or [Quilt](https://quiltmc.org/install/) mod loaders.
+Launch any version of Minecraft from 1.14 and above using any version of the [Fabric](https://fabricmc.net/use/installer/) or [Quilt](https://quiltmc.org/install/) mod loaders.
 
 ## Build from Source
 
