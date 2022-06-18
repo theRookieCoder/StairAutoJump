@@ -21,8 +21,7 @@ Launch any version of Minecraft using any version of the [Fabric](https://fabric
 
 1. Clone the repository with `git clone https://github.com/theRookieCoder/StairAutoJump` or `gh repo clone theRookieCoder/StairAutoJump`
 2. Enter the `StairAutoJump` folder and run `./gradlew build`
-3. Get the `.jar` file from the `libs` folder
-4. Place it in your `mods` folder
+3. You can find the `.jar` file in the `libs` folder, place it in your `mods` folder to use it
 
 ## Feedback/Support
 You can find support or give feedback in the [Issues Section](https://github.com/theRookieCoder/StairAutoJump/issues)
