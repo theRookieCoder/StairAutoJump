@@ -41,7 +41,7 @@ java {
 }
 
 // TODO: Update this every release
-def changelog = ""
+def changelog = "Add mod icon and `quilt.mod.json`"
 
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
@@ -107,7 +107,7 @@ curseforge {
         mainArtifact(remapJar) {
             changelogType = "markdown"
             changelog
-            displayName = "SnowyLeavesPlus ${project.version}"
+            displayName = "StairAutoJump ${project.version}"
         }
     }
 }
