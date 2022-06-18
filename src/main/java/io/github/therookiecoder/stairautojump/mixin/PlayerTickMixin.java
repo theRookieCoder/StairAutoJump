@@ -26,6 +26,6 @@ public class PlayerTickMixin {
         BlockPos pos = player.getBlockPos();
         GameOptions options = MinecraftClient.getInstance().options;
 
-        options.autoJump = isStair(pos, world) || isStair(pos.down(), world);
+        options.getAutoJump().setValue(isStair(pos, world) || isStair(pos.down(), world));
     }
 }
