@@ -2,7 +2,7 @@
 Turns on auto jump when in/on stairs!
 
 ## Why though?
-Auto Jump on stairs makes you move faster than just pressing the spacebar. This mod enables it automatically for you when in/on stairs if you don't use Auto Jump.
+As of snapshot [16w20a](https://minecraft.fandom.com/wiki/Java_Edition_16w20a), auto jump on stairs makes you move faster than just pressing the spacebar. This mod enables it automatically for you when in/on stairs if you don't use auto jump.
 
 ## Installing the mod
 **Requirements:** Any version of [Fabric](https://fabricmc.net/use/installer/) or [Quilt](https://quiltmc.org/install/) loader.
