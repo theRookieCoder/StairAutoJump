@@ -21,7 +21,16 @@ Launch any version of Minecraft from 1.14 and above using any version of the [Fa
 
 ## Build from Source
 
-1. Clone the repository with `git clone https://github.com/theRookieCoder/StairAutoJump` or `gh repo clone theRookieCoder/StairAutoJump`
+1. Clone the repository with
+```
+git clone https://github.com/theRookieCoder/StairAutoJump
+```
+
+or
+
+```
+gh repo clone theRookieCoder/StairAutoJump
+```
 2. Enter the `StairAutoJump` folder and run `./gradlew build`
 3. You can find the `.jar` file in the `libs` folder, place it in your `mods` folder to use it
 
