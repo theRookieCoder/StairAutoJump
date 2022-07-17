@@ -35,7 +35,7 @@ gh repo clone theRookieCoder/StairAutoJump
 3. You can find the `.jar` file in the `libs` folder, place it in your `mods` folder to use it
 
 ## Feedback/Support
-You can find support or give feedback in the [Issues Section](https://github.com/theRookieCoder/StairAutoJump/issues)
+You can find support or give feedback in the [Issues Section](https://github.com/theRookieCoder/StairAutoJump/issues).
 
 ## License
 This mod is licensed under the Mozilla Public License, v2.0 (`MPL-2.0`). You can read the license [here](LICENSE).
