@@ -4,10 +4,6 @@
 		"group": "io.github.therookiecoder",
 		"id": "stairautojump",
 		"version": "${version}",
-		"depends": [
-			"quilt_loader",
-			"minecraft"
-		],
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"metadata": {
 			"name": "StairAutoJump",
@@ -24,7 +20,13 @@
 			},
 			"license": "MPL-2.0",
 			"icon": "assets/stairautojump/icon.png"
-		}
+		},
+	    "depends": [
+		    {
+			    "id": "minecraft",
+			    "versions": "*"
+		    }
+	    ]
 	},
 	"mixin": "stairautojump.mixins.json",
 	"minecraft": {

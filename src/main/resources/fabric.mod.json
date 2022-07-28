@@ -7,7 +7,7 @@
   "authors": ["theRookieCoder", "RaptaG"],
   "contact": {
     "email": "ileshkt@gmail.com",
-    "homepage": "https://modrinth.com/mod/snowyleavesplus",
+    "homepage": "https://modrinth.com/mod/stairautojump",
     "sources": "https://github.com/theRookieCoder/StairAutoJump",
     "issues": "https://github.com/theRookieCoder/StairAutoJump/issues"
   },
@@ -16,7 +16,6 @@
   "environment": "client",
   "mixins": ["stairautojump.mixins.json"],
   "depends": {
-    "fabricloader": "*",
-    "minecraft": "*"
+    "minecraft": ">=16w20a"
   }
 }
