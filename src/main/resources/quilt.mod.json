@@ -24,7 +24,7 @@
 	    "depends": [
 		    {
 			    "id": "minecraft",
-			    "versions": "*"
+			    "versions": ">=1.10-alpha.16.20.a"
 		    }
 	    ]
 	},
