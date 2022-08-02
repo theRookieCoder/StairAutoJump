@@ -4,19 +4,16 @@
   "version": "${version}",
   "name": "StairAutoJump",
   "description": "Turns on auto jump when in/on stairs so that you can move faster!",
-  "authors": ["theRookieCoder", "RaptaG"],
+  "authors": "theRookieCoder",
   "contact": {
     "email": "ileshkt@gmail.com",
-    "homepage": "https://modrinth.com/mod/snowyleavesplus",
+    "homepage": "https://modrinth.com/mod/stairautojump",
     "sources": "https://github.com/theRookieCoder/StairAutoJump",
     "issues": "https://github.com/theRookieCoder/StairAutoJump/issues"
   },
+  "contributors": "RaptaG",
   "icon": "assets/stairautojump/icon.png",
   "license": "MPL-2.0",
   "environment": "client",
-  "mixins": ["stairautojump.mixins.json"],
-  "depends": {
-    "fabricloader": "*",
-    "minecraft": "*"
-  }
+  "mixins": ["stairautojump.mixins.json"]
 }

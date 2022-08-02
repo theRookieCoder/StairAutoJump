@@ -4,10 +4,6 @@
 		"group": "io.github.therookiecoder",
 		"id": "stairautojump",
 		"version": "${version}",
-		"depends": [
-			"quilt_loader",
-			"minecraft"
-		],
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"metadata": {
 			"name": "StairAutoJump",
