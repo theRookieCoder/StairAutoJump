@@ -41,7 +41,23 @@ java {
 }
 
 // TODO: Update this every release
-def changelog = "Add mod icon and `quilt.mod.json`"
+def changelog = "Update Minecraft version and dependencies.  \n" +
+        "Decrease mod icon size."
+
+task publish {
+    group 'Help'
+    description 'Upload to Modrinth and CurseForge, and sync body/description'
+    doLast {
+        ant.input(message: 'Did you update the changelog?', validargs: 'y,n', addproperty: 'doPublish')
+        if (ant.doPublish == 'n') {
+            return
+        }
+
+        publish.dependsOn modrinth
+        publish.dependsOn curseforge
+        publish.dependsOn modrinthSyncBody
+    }
+}
 
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
@@ -49,6 +65,7 @@ modrinth {
     versionNumber = project.version
     projectId = "shbn27fi"
     uploadFile = remapJar
+    additionalFiles = [sourcesJar]
     versionType = "beta"
     changelog
     loaders = ["fabric", "quilt"]
@@ -72,7 +89,9 @@ modrinth {
         "1.18",
         "1.18.1",
         "1.18.2",
-        "1.19"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
     ]
     syncBodyFrom = rootProject.file("README.md").text
 }
@@ -82,6 +101,8 @@ curseforge {
     project {
         id = "634697"
         releaseType = "beta"
+        changelogType = "markdown"
+        changelog
         addGameVersion("1.14")
         addGameVersion("1.14.1")
         addGameVersion("1.14.2")
@@ -102,11 +123,11 @@ curseforge {
         addGameVersion("1.18.1")
         addGameVersion("1.18.2")
         addGameVersion("1.19")
+        addGameVersion("1.19.1")
+        addGameVersion("1.19.2")
         addGameVersion("Fabric")
         addGameVersion("Quilt")
         mainArtifact(remapJar) {
-            changelogType = "markdown"
-            changelog
             displayName = "StairAutoJump ${project.version}"
         }
     }
