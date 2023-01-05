@@ -43,21 +43,6 @@ java {
 // TODO: Update this every release
 def changelog = "Make auto jump not enable when stair is upside down or jump boost is enabled"
 
-task publish {
-    group 'Help'
-    description 'Upload to Modrinth and CurseForge, and sync body/description'
-    doLast {
-        ant.input(message: 'Did you update the changelog?', validargs: 'y,n', addproperty: 'doPublish')
-        if (ant.doPublish == 'n') {
-            return
-        }
-
-        publish.dependsOn modrinth
-        publish.dependsOn curseforge
-        publish.dependsOn modrinthSyncBody
-    }
-}
-
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
     versionName = "StairAutoJump ${project.version}"
