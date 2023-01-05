@@ -41,10 +41,9 @@ java {
 }
 
 // TODO: Update this every release
-def changelog = "Update Minecraft version and dependencies.  \n" +
-        "Decrease mod icon size."
+def changelog = "Make auto jump not enable when stair is upside down"
 
-task publish {
+tasks.register('publish') {
     group 'Help'
     description 'Upload to Modrinth and CurseForge, and sync body/description'
     doLast {
@@ -91,7 +90,8 @@ modrinth {
         "1.18.2",
         "1.19",
         "1.19.1",
-        "1.19.2"
+        "1.19.2",
+        "1.19.3"
     ]
     syncBodyFrom = rootProject.file("README.md").text
 }
@@ -125,6 +125,7 @@ curseforge {
         addGameVersion("1.19")
         addGameVersion("1.19.1")
         addGameVersion("1.19.2")
+        addGameVersion("1.19.3")
         addGameVersion("Fabric")
         addGameVersion("Quilt")
         mainArtifact(remapJar) {
