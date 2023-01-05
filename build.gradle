@@ -41,9 +41,9 @@ java {
 }
 
 // TODO: Update this every release
-def changelog = "Make auto jump not enable when stair is upside down"
+def changelog = "Make auto jump not enable when stair is upside down or jump boost is enabled"
 
-tasks.register('publish') {
+task publish {
     group 'Help'
     description 'Upload to Modrinth and CurseForge, and sync body/description'
     doLast {

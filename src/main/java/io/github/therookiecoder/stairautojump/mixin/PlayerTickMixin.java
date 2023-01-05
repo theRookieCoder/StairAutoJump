@@ -5,6 +5,7 @@ import net.minecraft.block.StairsBlock;
 import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.GameOptions;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -30,6 +31,9 @@ public class PlayerTickMixin {
         BlockPos pos = player.getBlockPos();
         GameOptions options = MinecraftClient.getInstance().options;
 
-        options.getAutoJump().setValue(onStair(pos, world) || onStair(pos.down(), world));
+        options.getAutoJump().setValue(
+            !player.hasStatusEffect(StatusEffects.JUMP_BOOST)
+                && (onStair(pos, world) || onStair(pos.down(), world))
+        );
     }
 }
